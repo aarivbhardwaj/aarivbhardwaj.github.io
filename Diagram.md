@@ -11,7 +11,7 @@ flowchart TD
     E --> F[Confirm Payment]
     D -- No --> G[Continue Browsing]
     B -- No --> H[Show Out of Stock Message]
-Diagram Breakdown:
+
 Start: The user initiates the process by looking for a product.
 Is the product available?: This decision checks whether the product is in stock.
 If "Yes", the system displays product details.
